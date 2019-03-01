@@ -69,7 +69,7 @@ function displayTime2() {
 
     var sec = parseInt(timer/(1000))%60;
 
-    div.innerHTML = days + ' : ' + hours + ' : ' + min + ' : ' + sec; //строковое представление времени
+    div.innerHTML = days + ' дн. ' + hours + ' : ' + min + ' : ' + sec; //строковое представление времени
 
     setTimeout(displayTime2,1000); //циклически вызываем функцию на исполнение с интервалом в 1 сек
 }
